@@ -2,7 +2,7 @@ import { useAuthStore } from '../stores/authStore';
 
 const API_BASE_URL = '/api';
 
-interface ApiResponse<T> {
+export interface ApiResponse<T> {
   success: boolean;
   data?: T;
   error?: {

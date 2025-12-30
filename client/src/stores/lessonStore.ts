@@ -3,14 +3,13 @@ import { create } from 'zustand';
 export interface Sentence {
   id: string;
   lessonId: string;
-  sentenceNumber: number;
+  orderIndex: number;
   english: string;
   target: string;
-  audioStartMs: number;
-  audioEndMs: number;
-  shadowingStartMs: number;
-  shadowingEndMs: number;
-  pronunciationHint?: string | null;
+  audioStartMs: number | null;
+  audioEndMs: number | null;
+  pronunciation?: string | null;
+  notes?: string | null;
 }
 
 export interface Lesson {
@@ -23,7 +22,9 @@ export interface Lesson {
   estimatedMinutes: number;
   xpReward: number;
   isLocked: boolean;
-  createdAt: string;
+  shortAudioKey?: string | null;
+  longAudioKey?: string | null;
+  isActive?: boolean;
 }
 
 interface LessonState {
@@ -61,7 +62,7 @@ export const useLessonStore = create<LessonState>((set, get) => ({
   setCurrentLesson: (lesson) => set({ currentLesson: lesson }),
 
   setSentences: (sentences) => set({
-    sentences: sentences.sort((a, b) => a.sentenceNumber - b.sentenceNumber)
+    sentences: sentences.sort((a, b) => a.orderIndex - b.orderIndex)
   }),
 
   setCurrentSentenceIndex: (index) => {
