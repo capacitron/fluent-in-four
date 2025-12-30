@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build & Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript check (client)
+        working-directory: ./client
+        run: npx tsc --noEmit
+
+      - name: TypeScript check (server)
+        working-directory: ./server
+        run: npx tsc --noEmit
+
+      - name: TypeScript check (shared)
+        working-directory: ./shared
+        run: npx tsc --noEmit
+
+      - name: Build client
+        working-directory: ./client
+        run: npx vite build
+
+      - name: Build server
+        working-directory: ./server
+        run: npx tsc
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint (if configured)
+        run: |
+          if [ -f "client/eslint.config.js" ] || [ -f "client/.eslintrc.js" ] || [ -f "client/.eslintrc.json" ]; then
+            cd client && npx eslint src --ext .ts,.tsx
+          else
+            echo "ESLint not configured, skipping..."
+          fi
+        continue-on-error: true
