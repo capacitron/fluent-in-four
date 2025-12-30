@@ -222,7 +222,7 @@ export function useSentenceAudio(src: string | null) {
   const seekToSentence = useCallback((index: number) => {
     if (index >= 0 && index < sentences.length) {
       const sentence = sentences[index];
-      const startTime = sentence.audioStartMs / 1000;
+      const startTime = (sentence.audioStartMs ?? 0) / 1000;
       audio.seek(startTime);
       setCurrentSentenceIndex(index);
     }
@@ -251,7 +251,9 @@ export function useSentenceAudio(src: string | null) {
     // Find which sentence we're in
     for (let i = 0; i < sentences.length; i++) {
       const sentence = sentences[i];
-      if (currentTimeMs >= sentence.audioStartMs && currentTimeMs < sentence.audioEndMs) {
+      const startMs = sentence.audioStartMs ?? 0;
+      const endMs = sentence.audioEndMs ?? Infinity;
+      if (currentTimeMs >= startMs && currentTimeMs < endMs) {
         if (i !== currentIndex) {
           setCurrentSentenceIndex(i);
         }
