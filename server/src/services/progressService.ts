@@ -1,4 +1,4 @@
-import { eq, and, sql } from 'drizzle-orm';
+import { eq, and } from 'drizzle-orm';
 import { db } from '../config/database.js';
 import {
   lessonProgress,
@@ -21,17 +21,17 @@ export const TASK_XP = {
 export const LESSON_BONUS_XP = 50;
 
 export interface TaskProgressData {
-  percentComplete: number;
   timeSpentSeconds?: number;
-  repsCompleted?: number;
+  repetitionsCompleted?: number;
   sentencesCompleted?: number;
+  currentSentenceIndex?: number;
   isCompleted?: boolean;
 }
 
 export interface LessonProgressData {
-  percentComplete?: number;
+  status?: 'not_started' | 'in_progress' | 'completed';
   timeSpentSeconds?: number;
-  isCompleted?: boolean;
+  xpEarned?: number;
 }
 
 // Get all progress for a user
@@ -92,17 +92,26 @@ export async function updateLessonProgress(
   });
 
   if (existing) {
+    const updateData: Record<string, unknown> = {
+      updatedAt: new Date(),
+    };
+
+    if (data.status !== undefined) {
+      updateData.status = data.status;
+    }
+    if (data.timeSpentSeconds !== undefined) {
+      updateData.timeSpentSeconds = existing.timeSpentSeconds + data.timeSpentSeconds;
+    }
+    if (data.xpEarned !== undefined) {
+      updateData.xpEarned = existing.xpEarned + data.xpEarned;
+    }
+    if (data.status === 'completed' && !existing.completedAt) {
+      updateData.completedAt = new Date();
+    }
+
     const [updated] = await db
       .update(lessonProgress)
-      .set({
-        percentComplete: data.percentComplete ?? existing.percentComplete,
-        timeSpentSeconds: data.timeSpentSeconds
-          ? existing.timeSpentSeconds + data.timeSpentSeconds
-          : existing.timeSpentSeconds,
-        isCompleted: data.isCompleted ?? existing.isCompleted,
-        lastAccessedAt: new Date(),
-        completedAt: data.isCompleted ? new Date() : existing.completedAt,
-      })
+      .set(updateData)
       .where(eq(lessonProgress.id, existing.id))
       .returning();
 
@@ -125,17 +134,48 @@ export async function updateLessonProgress(
       .values({
         userId,
         lessonId,
-        percentComplete: data.percentComplete ?? 0,
+        status: data.status ?? 'in_progress',
         timeSpentSeconds: data.timeSpentSeconds ?? 0,
-        isCompleted: data.isCompleted ?? false,
-        startedAt: new Date(),
-        completedAt: data.isCompleted ? new Date() : null,
-        lastAccessedAt: new Date(),
+        xpEarned: data.xpEarned ?? 0,
+        completedAt: data.status === 'completed' ? new Date() : null,
       })
       .returning();
 
     return created;
   }
+}
+
+// Mark a specific task as completed in lesson progress
+async function markTaskCompleted(
+  userId: string,
+  lessonId: string,
+  taskNumber: number
+) {
+  const existing = await db.query.lessonProgress.findFirst({
+    where: and(
+      eq(lessonProgress.userId, userId),
+      eq(lessonProgress.lessonId, lessonId)
+    ),
+  });
+
+  if (!existing) {
+    return;
+  }
+
+  const taskField = `task${taskNumber}Completed` as keyof typeof existing;
+  if (existing[taskField]) {
+    return; // Already completed
+  }
+
+  const updateData: Record<string, unknown> = {
+    updatedAt: new Date(),
+  };
+  updateData[taskField] = true;
+
+  await db
+    .update(lessonProgress)
+    .set(updateData)
+    .where(eq(lessonProgress.id, existing.id));
 }
 
 // Update or create task progress
@@ -167,23 +207,27 @@ export async function updateTaskProgress(
     const [updated] = await db
       .update(taskProgress)
       .set({
-        percentComplete: Math.max(data.percentComplete, existing.percentComplete),
         timeSpentSeconds: data.timeSpentSeconds
           ? existing.timeSpentSeconds + data.timeSpentSeconds
           : existing.timeSpentSeconds,
-        repsCompleted: data.repsCompleted ?? existing.repsCompleted,
+        repetitionsCompleted: data.repetitionsCompleted ?? existing.repetitionsCompleted,
         sentencesCompleted: Math.max(
           data.sentencesCompleted ?? 0,
           existing.sentencesCompleted
         ),
+        currentSentenceIndex: data.currentSentenceIndex ?? existing.currentSentenceIndex,
         isCompleted: data.isCompleted ?? existing.isCompleted,
         completedAt: data.isCompleted && !existing.completedAt ? new Date() : existing.completedAt,
+        updatedAt: new Date(),
       })
       .where(eq(taskProgress.id, existing.id))
       .returning();
 
     result = updated;
   } else {
+    // Ensure lesson progress exists first
+    await updateLessonProgress(userId, lessonId, { status: 'in_progress' });
+
     // New task progress - award XP if completing
     if (data.isCompleted) {
       xpAwarded = TASK_XP[taskNumber as keyof typeof TASK_XP] || 0;
@@ -196,12 +240,11 @@ export async function updateTaskProgress(
         userId,
         lessonId,
         taskNumber,
-        percentComplete: data.percentComplete,
         timeSpentSeconds: data.timeSpentSeconds ?? 0,
-        repsCompleted: data.repsCompleted ?? 0,
+        repetitionsCompleted: data.repetitionsCompleted ?? 0,
         sentencesCompleted: data.sentencesCompleted ?? 0,
+        currentSentenceIndex: data.currentSentenceIndex ?? 0,
         isCompleted: data.isCompleted ?? false,
-        startedAt: new Date(),
         completedAt: data.isCompleted ? new Date() : null,
       })
       .returning();
@@ -209,9 +252,11 @@ export async function updateTaskProgress(
     result = created;
   }
 
-  // Check if all tasks complete for lesson bonus
+  // Mark task completed in lesson progress and check for lesson completion
   let lessonBonusAwarded = false;
   if (wasJustCompleted) {
+    await markTaskCompleted(userId, lessonId, taskNumber);
+
     const allTasks = await db.query.taskProgress.findMany({
       where: and(
         eq(taskProgress.userId, userId),
@@ -227,14 +272,7 @@ export async function updateTaskProgress(
 
       // Mark lesson as complete
       await updateLessonProgress(userId, lessonId, {
-        percentComplete: 100,
-        isCompleted: true,
-      });
-    } else {
-      // Update lesson progress percentage
-      const percent = (completedTasks.length / 5) * 100;
-      await updateLessonProgress(userId, lessonId, {
-        percentComplete: percent,
+        status: 'completed',
       });
     }
   }
@@ -292,7 +330,6 @@ async function ensureUserLanguage(userId: string, languageId: string) {
     await db.insert(userLanguages).values({
       userId,
       languageId,
-      isActive: true,
     });
   }
 }
@@ -319,7 +356,7 @@ export async function getUserStats(userId: string) {
     }),
   ]);
 
-  const completedLessons = lessonProgressData.filter((l) => l.isCompleted).length;
+  const completedLessons = lessonProgressData.filter((l) => l.completedAt !== null).length;
   const completedTasks = taskProgressData.filter((t) => t.isCompleted).length;
   const totalTimeSpent = lessonProgressData.reduce((sum, l) => sum + l.timeSpentSeconds, 0);
 

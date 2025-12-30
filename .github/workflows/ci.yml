@@ -31,7 +31,6 @@ jobs:
       - name: TypeScript check (server)
         working-directory: ./server
         run: npx tsc --noEmit
-        continue-on-error: true  # TODO: Fix server type errors
 
       - name: TypeScript check (shared)
         working-directory: ./shared
@@ -45,7 +44,6 @@ jobs:
       - name: Build server
         working-directory: ./server
         run: npx tsc
-        continue-on-error: true  # TODO: Fix server type errors
 
   lint:
     name: Lint

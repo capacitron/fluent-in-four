@@ -11,7 +11,7 @@ export async function getUserXP(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const xp = await xpService.getUserXP(userId);
     res.json({
       success: true,
@@ -29,7 +29,7 @@ export async function getXPHistory(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const limit = parseInt(req.query.limit as string) || 20;
     const history = await xpService.getXPHistory(userId, limit);
     res.json({
@@ -48,7 +48,7 @@ export async function getStreak(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const streak = await streakService.getStreak(userId);
     res.json({
       success: true,
@@ -66,7 +66,7 @@ export async function getAchievements(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const achievements = await achievementService.getUserAchievements(userId);
     res.json({
       success: true,
@@ -101,7 +101,7 @@ export async function getAchievementProgress(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const progress = await achievementService.getAchievementProgress(userId);
     res.json({
       success: true,
@@ -119,7 +119,7 @@ export async function checkAchievements(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const unlocked = await achievementService.checkAchievements(userId);
     res.json({
       success: true,
@@ -204,7 +204,7 @@ export async function getStats(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
 
     const [xp, streak, achievementProgress] = await Promise.all([
       xpService.getUserXP(userId),

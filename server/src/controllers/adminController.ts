@@ -146,7 +146,7 @@ export async function setUserRole(
     }
 
     // Prevent demoting self
-    if (req.user?.id === id && role === 'user') {
+    if (req.user?.sub === id && role === 'user') {
       next(createError(400, 'INVALID_OPERATION', 'Cannot demote yourself'));
       return;
     }
@@ -200,7 +200,7 @@ export async function createUpload(
     }
 
     const upload = await createContentUpload({
-      uploadedBy: req.user!.id,
+      uploadedBy: req.user!.sub,
       fileName,
       fileType,
       storageKey,

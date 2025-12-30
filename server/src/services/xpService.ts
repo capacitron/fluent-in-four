@@ -125,7 +125,6 @@ export async function awardXP(
     amount,
     source,
     sourceId,
-    totalAfter: newTotalXp,
   });
 
   return {

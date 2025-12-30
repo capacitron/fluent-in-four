@@ -13,7 +13,7 @@ import * as xpService from './xpService.js';
 // Get all achievement definitions
 export async function getAchievementDefinitions() {
   return db.query.achievementDefinitions.findMany({
-    orderBy: (achievements, { asc }) => [asc(achievements.category), asc(achievements.tier)],
+    orderBy: (achievements, { asc }) => [asc(achievements.displayOrder)],
   });
 }
 
@@ -107,7 +107,7 @@ export async function checkAchievements(userId: string): Promise<Array<{ achieve
   ]);
 
   const unlockedIds = new Set(userAchievs.map((ua) => ua.achievementId));
-  const completedLessons = lessonProgressData.filter((l) => l.isCompleted).length;
+  const completedLessons = lessonProgressData.filter((l) => l.completedAt !== null).length;
   const languagesStarted = languagesData.length;
   const currentStreak = streakData?.currentStreak || 0;
   const totalXp = userData?.totalXp || 0;
@@ -199,7 +199,7 @@ export async function getAchievementProgress(userId: string) {
   ]);
 
   return {
-    completedLessons: lessonProgressData.filter((l) => l.isCompleted).length,
+    completedLessons: lessonProgressData.filter((l) => l.completedAt !== null).length,
     languagesStarted: languagesData.length,
     currentStreak: streakData?.currentStreak || 0,
     longestStreak: streakData?.longestStreak || 0,

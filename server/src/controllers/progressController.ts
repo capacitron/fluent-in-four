@@ -10,7 +10,7 @@ export async function getUserProgress(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const progress = await progressService.getUserProgress(userId);
     res.json({
       success: true,
@@ -28,7 +28,7 @@ export async function getUserStats(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const stats = await progressService.getUserStats(userId);
     res.json({
       success: true,
@@ -46,7 +46,7 @@ export async function getLessonProgress(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const { id } = req.params;
     const progress = await progressService.getLessonProgress(userId, id);
     res.json({
@@ -65,7 +65,7 @@ export async function updateLessonProgress(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const { id } = req.params;
     const data = req.body;
 
@@ -87,7 +87,7 @@ export async function updateTaskProgress(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const { id, taskNum } = req.params;
     const data = req.body;
 
@@ -129,7 +129,7 @@ export async function syncProgress(
   next: NextFunction
 ): Promise<void> {
   try {
-    const userId = req.user!.id;
+    const userId = req.user!.sub;
     const { updates } = req.body;
 
     if (!Array.isArray(updates)) {

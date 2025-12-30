@@ -36,13 +36,16 @@ export function errorHandler(
   const code = err.code || 'INTERNAL_ERROR';
   const message = err.message || 'An unexpected error occurred';
 
+  const errorResponse: { code: string; message: string; details?: unknown } = {
+    code,
+    message,
+  };
+  if (err.details !== undefined) {
+    errorResponse.details = err.details;
+  }
   res.status(statusCode).json({
     success: false,
-    error: {
-      code,
-      message,
-      ...(err.details && { details: err.details }),
-    },
+    error: errorResponse,
   });
 }
 

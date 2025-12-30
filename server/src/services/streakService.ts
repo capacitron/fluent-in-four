@@ -49,7 +49,7 @@ export async function updateStreak(userId: string) {
       userId,
       currentStreak: 1,
       longestStreak: 1,
-      lastActivityDate: new Date(),
+      lastActivityDate: today,
     });
 
     return {
@@ -99,7 +99,7 @@ export async function updateStreak(userId: string) {
     .set({
       currentStreak: newStreak,
       longestStreak: newLongest,
-      lastActivityDate: new Date(),
+      lastActivityDate: today,
     })
     .where(eq(streaks.id, existing.id));
 

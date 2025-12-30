@@ -14,14 +14,14 @@ export interface RefreshTokenPayload {
 
 export function signAccessToken(payload: AccessTokenPayload): string {
   return jwt.sign(payload, env.JWT_SECRET, {
-    expiresIn: env.JWT_ACCESS_EXPIRES,
-  });
+    expiresIn: env.JWT_ACCESS_EXPIRES as string,
+  } as jwt.SignOptions);
 }
 
 export function signRefreshToken(payload: RefreshTokenPayload): string {
   return jwt.sign(payload, env.JWT_REFRESH_SECRET, {
-    expiresIn: env.JWT_REFRESH_EXPIRES,
-  });
+    expiresIn: env.JWT_REFRESH_EXPIRES as string,
+  } as jwt.SignOptions);
 }
 
 export function verifyAccessToken(token: string): AccessTokenPayload | null {
