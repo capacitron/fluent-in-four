@@ -147,7 +147,7 @@ export async function getGlobalLeaderboard(
     // Get current user's rank if authenticated
     let userRank = null;
     if (req.user) {
-      userRank = await leaderboardService.getUserRank(req.user.id);
+      userRank = await leaderboardService.getUserRank(req.user.sub);
     }
 
     res.json({
@@ -182,7 +182,7 @@ export async function getLanguageLeaderboard(
     // Get current user's rank if authenticated
     let userRank = null;
     if (req.user) {
-      userRank = await leaderboardService.getUserLanguageRank(req.user.id, language);
+      userRank = await leaderboardService.getUserLanguageRank(req.user.sub, language);
     }
 
     res.json({
