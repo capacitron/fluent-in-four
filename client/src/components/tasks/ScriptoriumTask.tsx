@@ -43,7 +43,7 @@ export function ScriptoriumTask({ lesson, sentences, onComplete }: TaskProps) {
   // Play sentence audio
   const playSentenceAudio = useCallback(() => {
     if (currentSentence) {
-      seek(currentSentence.shadowingStartMs / 1000);
+      seek((currentSentence.audioStartMs ?? 0) / 1000);
       toggle();
     }
   }, [currentSentence, seek, toggle]);

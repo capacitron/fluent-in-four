@@ -58,7 +58,9 @@ export function ListenReadTask({ lesson, sentences, onComplete }: TaskProps) {
 
     for (let i = 0; i < sentences.length; i++) {
       const sentence = sentences[i];
-      if (currentTimeMs >= sentence.audioStartMs && currentTimeMs < sentence.audioEndMs) {
+      const startMs = sentence.audioStartMs ?? 0;
+      const endMs = sentence.audioEndMs ?? Infinity;
+      if (currentTimeMs >= startMs && currentTimeMs < endMs) {
         if (i !== currentIndex) {
           setCurrentSentenceIndex(i);
         }
@@ -70,7 +72,7 @@ export function ListenReadTask({ lesson, sentences, onComplete }: TaskProps) {
   const handleSentenceClick = (index: number) => {
     const sentence = sentences[index];
     if (sentence) {
-      const seekTime = sentence.audioStartMs / 1000;
+      const seekTime = (sentence.audioStartMs ?? 0) / 1000;
       const duration = useAudioStore.getState().duration;
       if (duration > 0) {
         const percent = (seekTime / duration) * 100;

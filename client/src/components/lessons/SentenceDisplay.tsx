@@ -6,7 +6,7 @@ interface SentenceDisplayProps {
   sentence?: {
     target: string;
     english: string;
-    pronunciationHint?: string | null;
+    pronunciation?: string | null;
   };
   /** Override showing English */
   showEnglish?: boolean;
@@ -145,10 +145,10 @@ export function SentenceDisplay({
       </div>
 
       {/* Pronunciation hint */}
-      {sentence.pronunciationHint && showEnglish && (
+      {sentence.pronunciation && showEnglish && (
         <div className="mt-3 pt-3 border-t border-stone-100 dark:border-stone-700">
           <p className="text-xs text-stone-500 dark:text-stone-500 text-center italic">
-            {sentence.pronunciationHint}
+            {sentence.pronunciation}
           </p>
         </div>
       )}
@@ -159,7 +159,7 @@ export function SentenceDisplay({
 // Compact version for lists
 interface SentencePreviewProps {
   sentence: {
-    sentenceNumber: number;
+    orderIndex: number;
     target: string;
     english: string;
   };
@@ -190,7 +190,7 @@ export function SentencePreview({ sentence, isActive = false, onClick }: Sentenc
             }
           `}
         >
-          {sentence.sentenceNumber}
+          {sentence.orderIndex}
         </span>
         <div className="flex-1 min-w-0">
           <p

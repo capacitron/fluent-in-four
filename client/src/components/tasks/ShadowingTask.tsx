@@ -87,7 +87,7 @@ export function ShadowingTask({ lesson, sentences, onComplete }: TaskProps) {
     if (!currentSentence) return;
 
     setPhase('playing');
-    seek(currentSentence.shadowingStartMs / 1000);
+    seek((currentSentence.audioStartMs ?? 0) / 1000);
     toggle();
   }, [currentSentence, seek, toggle]);
 
@@ -100,7 +100,7 @@ export function ShadowingTask({ lesson, sentences, onComplete }: TaskProps) {
       await addRecording({
         lessonId: lesson.id,
         sentenceId: currentSentence.id,
-        sentenceNumber: currentSentence.sentenceNumber,
+        orderIndex: currentSentence.orderIndex,
         taskNumber: 2,
         blob,
         duration: 0, // Could calculate from blob if needed
@@ -272,7 +272,7 @@ export function ShadowingTask({ lesson, sentences, onComplete }: TaskProps) {
                   id: 'temp',
                   lessonId: lesson.id,
                   sentenceId: currentSentence?.id || '',
-                  sentenceNumber: currentSentence?.sentenceNumber || 0,
+                  orderIndex: currentSentence?.orderIndex || 0,
                   taskNumber: 2,
                   blob: currentRecording,
                   duration: 0,

@@ -18,7 +18,7 @@ export interface StoredRecording {
   id: string;
   lessonId: string;
   sentenceId: string;
-  sentenceNumber: number;
+  orderIndex: number;
   taskNumber: number;
   blob: Blob;
   duration: number;
