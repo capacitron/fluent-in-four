@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* ===== LIGHT THEME ===== */
+
+  /* Primary - Warm Terracotta */
+  --primary-50: #fef7f4;
+  --primary-100: #fdeee6;
+  --primary-200: #fad9c7;
+  --primary-300: #f5be9d;
+  --primary-400: #ed9466;
+  --primary-500: #e67040;
+  --primary-600: #d4532a;
+  --primary-700: #b04024;
+  --primary-800: #8e3522;
+  --primary-900: #752f20;
+
+  /* Secondary - Mediterranean Blue */
+  --secondary-50: #f0f9ff;
+  --secondary-100: #e0f2fe;
+  --secondary-200: #b9e5fe;
+  --secondary-300: #7cd2fd;
+  --secondary-400: #36bbfa;
+  --secondary-500: #0c9eeb;
+  --secondary-600: #007ec9;
+  --secondary-700: #0165a3;
+  --secondary-800: #065586;
+  --secondary-900: #0b476f;
+
+  /* Accent - Olive Gold */
+  --accent-50: #fdfde8;
+  --accent-100: #fafbc4;
+  --accent-200: #f6f58c;
+  --accent-300: #ede84a;
+  --accent-400: #dfd31a;
+  --accent-500: #c7b80e;
+  --accent-600: #9a8f09;
+  --accent-700: #6e680b;
+  --accent-800: #5a5310;
+  --accent-900: #4c4512;
+
+  /* Backgrounds */
+  --bg-primary: #fafaf9;
+  --bg-secondary: #f5f5f4;
+  --bg-card: #ffffff;
+
+  /* Text */
+  --text-primary: #1c1917;
+  --text-secondary: #57534e;
+  --text-muted: #a8a29e;
+
+  /* Semantic */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #0c9eeb;
+}
+
+.dark {
+  /* ===== DARK THEME ===== */
+  --bg-primary: #0f0f0e;
+  --bg-secondary: #1a1918;
+  --bg-card: #242321;
+
+  --text-primary: #fafaf9;
+  --text-secondary: #d6d3d1;
+  --text-muted: #78716c;
+
+  /* Slightly desaturated primaries for dark mode */
+  --primary-500: #d96a3e;
+  --secondary-500: #2ba3e8;
+}
+
+/* Base styles */
+@layer base {
+  * {
+    @apply border-stone-200 dark:border-stone-700;
+  }
+
+  html {
+    @apply antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-50;
+    @apply font-body;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold tracking-tight;
+  }
+}
+
+/* Custom scrollbar */
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.stone.300') transparent;
+  }
+
+  .dark .scrollbar-thin {
+    scrollbar-color: theme('colors.stone.700') transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-stone-300 dark:bg-stone-700 rounded-full;
+  }
+
+  /* Safe area padding for notched devices */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .safe-left {
+    padding-left: env(safe-area-inset-left);
+  }
+
+  .safe-right {
+    padding-right: env(safe-area-inset-right);
+  }
+}

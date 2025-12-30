@@ -1,0 +1,1240 @@
+{
+  "lessonNumber": 1,
+  "title": "150 Conversation Sentences",
+  "description": "Learn 150 essential conversation sentences. Master vocabulary, grammar, listening, and speaking through 5 intensive exercises.",
+  "totalSentences": 154,
+  "sentences": [
+    {
+      "orderIndex": 0,
+      "english": "Welcome!",
+      "spanish": "¡Bienvenido!",
+      "french": "bienvenue!",
+      "italian": "Benvenuto!",
+      "portuguese": "Bem-vindo!"
+    },
+    {
+      "orderIndex": 1,
+      "english": "Hello! How are you?",
+      "spanish": "¿Hola, cómo estás?",
+      "french": "Bonjour comment allez-vous?",
+      "italian": "Ciao, come stai?",
+      "portuguese": "Olá, como vai?"
+    },
+    {
+      "orderIndex": 2,
+      "english": "My name is Mikel.",
+      "spanish": "Mi nombre es Mikel.",
+      "french": "Je m'appelle Mikel.",
+      "italian": "Mi chiamo Mikel.",
+      "portuguese": "Meu nome é Mikel."
+    },
+    {
+      "orderIndex": 3,
+      "english": "What's your name?",
+      "spanish": "¿Cómo te llamas?",
+      "french": "Quel est ton nom?",
+      "italian": "Come ti chiami?",
+      "portuguese": "Qual o seu nome?"
+    },
+    {
+      "orderIndex": 4,
+      "english": "Nice to meet you.",
+      "spanish": "Encantado de conocerlo.",
+      "french": "Ravi de vous rencontrer.",
+      "italian": "Piacere di conoscerti.",
+      "portuguese": "Prazer em conhecê-lo."
+    },
+    {
+      "orderIndex": 5,
+      "english": "How many languages do you speak?",
+      "spanish": "¿Cuántos idiomas hablas?",
+      "french": "Combien de langues parlez-vous ?",
+      "italian": "Quante lingue parli?",
+      "portuguese": "Quantas línguas você fala?"
+    },
+    {
+      "orderIndex": 6,
+      "english": "I speak twelve languages.",
+      "spanish": "Hablo doce idiomas.",
+      "french": "Je parle douze langues.",
+      "italian": "Parlo dodici lingue.",
+      "portuguese": "Falo doze línguas."
+    },
+    {
+      "orderIndex": 7,
+      "english": "Learning languages is easy.",
+      "spanish": "Aprender idiomas es fácil.",
+      "french": "Apprendre les langues est facile.",
+      "italian": "Imparare le lingue è facile.",
+      "portuguese": "Aprender idiomas é fácil."
+    },
+    {
+      "orderIndex": 8,
+      "english": "With this text, you can learn more than one hundred sentences in one week.",
+      "spanish": "Con este texto podrás aprender más de cien frases en una semana.",
+      "french": "Avec ce texte, vous pouvez apprendre plus de cent phrases en une semaine.",
+      "italian": "Con questo testo puoi imparare più di cento frasi in una settimana.",
+      "portuguese": "Com este texto, você pode aprender mais de cem frases em uma semana."
+    },
+    {
+      "orderIndex": 9,
+      "english": "This is enough to have simple conversations.",
+      "spanish": "Esto es suficiente para tener conversaciones sencillas.",
+      "french": "Cela suffit pour avoir des conversations simples.",
+      "italian": "Questo è sufficiente per avere conversazioni semplici.",
+      "portuguese": "Isso é suficiente para ter conversas simples."
+    },
+    {
+      "orderIndex": 10,
+      "english": "You have to read the sentences over and over again.",
+      "spanish": "Tienes que leer las frases una y otra vez.",
+      "french": "Vous devez relire les phrases encore et encore.",
+      "italian": "Bisogna leggere le frasi più e più volte.",
+      "portuguese": "Você precisa ler as frases repetidas vezes."
+    },
+    {
+      "orderIndex": 11,
+      "english": "You have to listen to the audio files a lot.",
+      "spanish": "Tienes que escuchar mucho los archivos de audio.",
+      "french": "Vous devez écouter les fichiers audio très souvent.",
+      "italian": "Bisogna ascoltare molto i file audio.",
+      "portuguese": "Você precisa ouvir os arquivos de áudio com frequência."
+    },
+    {
+      "orderIndex": 12,
+      "english": "You have to listen and repeat the sentences.",
+      "spanish": "Tienes que escuchar y repetir las frases.",
+      "french": "Vous devez écouter et répéter les phrases.",
+      "italian": "Bisogna ascoltare e ripetere le frasi.",
+      "portuguese": "Você precisa ouvir e repetir as frases."
+    },
+    {
+      "orderIndex": 13,
+      "english": "This is the best way to learn pronunciation.",
+      "spanish": "Esta es la mejor manera de aprender pronunciación.",
+      "french": "C'est la meilleure façon d'apprendre la prononciation.",
+      "italian": "Questo è il modo migliore per imparare la pronuncia.",
+      "portuguese": "Essa é a melhor maneira de aprender pronúncia."
+    },
+    {
+      "orderIndex": 14,
+      "english": "Finally, you have to write and translate the sentences.",
+      "spanish": "Por último, tienes que escribir y traducir las frases.",
+      "french": "Enfin, vous devez écrire et traduire les phrases.",
+      "italian": "Infine, devi scrivere e tradurre le frasi.",
+      "portuguese": "Por fim, você precisa escrever e traduzir as frases."
+    },
+    {
+      "orderIndex": 15,
+      "english": "Let's learn as many sentences as possible!",
+      "spanish": "¡Aprendamos tantas frases como sea posible!",
+      "french": "Apprenons autant de phrases que possible !",
+      "italian": "Impariamo quante più frasi possibili!",
+      "portuguese": "Vamos aprender o máximo de frases possível!"
+    },
+    {
+      "orderIndex": 16,
+      "english": "Where are you from?",
+      "spanish": "¿De dónde eres?",
+      "french": "D'où venez-vous?",
+      "italian": "Di dove sei?",
+      "portuguese": "De onde você é?"
+    },
+    {
+      "orderIndex": 17,
+      "english": "I'm from the Basque Country, in Spain.",
+      "spanish": "Soy del País Vasco, en España.",
+      "french": "Je viens du Pays basque, en Espagne.",
+      "italian": "Vengo dai Paesi Baschi, in Spagna.",
+      "portuguese": "Sou do País Basco, na Espanha."
+    },
+    {
+      "orderIndex": 18,
+      "english": "Where do you live now?",
+      "spanish": "¿Donde vives ahora?",
+      "french": "Où habitez-vous actuellement ?",
+      "italian": "Dove vivi adesso?",
+      "portuguese": "Onde você mora atualmente?"
+    },
+    {
+      "orderIndex": 19,
+      "english": "I live in San Sebastian, my hometown.",
+      "spanish": "Vivo en San Sebastián, mi ciudad natal.",
+      "french": "J'habite à Saint-Sébastien, ma ville natale.",
+      "italian": "Vivo a San Sebastian, la mia città natale.",
+      "portuguese": "Eu moro em San Sebastián, minha cidade natal."
+    },
+    {
+      "orderIndex": 20,
+      "english": "I don’t know that city.",
+      "spanish": "No conozco esa ciudad.",
+      "french": "Je ne connais pas cette ville.",
+      "italian": "Non conosco quella città.",
+      "portuguese": "Não conheço essa cidade."
+    },
+    {
+      "orderIndex": 21,
+      "english": "What is the city like?",
+      "spanish": "¿Cómo es la ciudad?",
+      "french": "À quoi ressemble la ville ?",
+      "italian": "Com'è la città?",
+      "portuguese": "Como é a cidade?"
+    },
+    {
+      "orderIndex": 22,
+      "english": "It’s a small but beautiful city.",
+      "spanish": "Es una ciudad pequeña pero hermosa.",
+      "french": "C'est une petite ville, mais elle est magnifique.",
+      "italian": "È una città piccola ma bellissima.",
+      "portuguese": "É uma cidade pequena, mas bonita."
+    },
+    {
+      "orderIndex": 23,
+      "english": "It has three beaches.",
+      "spanish": "Tiene tres playas.",
+      "french": "Elle possède trois plages.",
+      "italian": "Ha tre spiagge.",
+      "portuguese": "Possui três praias."
+    },
+    {
+      "orderIndex": 24,
+      "english": "I live next to one of the beaches.",
+      "spanish": "Vivo al lado de una de las playas.",
+      "french": "J'habite à côté d'une des plages.",
+      "italian": "Io abito vicino a una delle spiagge.",
+      "portuguese": "Eu moro perto de uma das praias."
+    },
+    {
+      "orderIndex": 25,
+      "english": "Is it a good place for surfing?",
+      "spanish": "¿Es un buen lugar para practicar surf?",
+      "french": "Est-ce un bon endroit pour surfer ?",
+      "italian": "È un buon posto per fare surf?",
+      "portuguese": "É um bom lugar para surfar?"
+    },
+    {
+      "orderIndex": 26,
+      "english": "Only one of the three beaches is good for surfing.",
+      "spanish": "Sólo una de las tres playas es buena para practicar surf.",
+      "french": "Une seule des trois plages est propice au surf.",
+      "italian": "Solo una delle tre spiagge è adatta al surf.",
+      "portuguese": "Apenas uma das três praias é boa para surfar."
+    },
+    {
+      "orderIndex": 27,
+      "english": "Do you like surfing?",
+      "spanish": "¿Te gusta el surf?",
+      "french": "Aimes-tu le surf ?",
+      "italian": "Ti piace fare surf?",
+      "portuguese": "Você gosta de surfar?"
+    },
+    {
+      "orderIndex": 28,
+      "english": "Do you like traveling?",
+      "spanish": "¿Te gusta viajar?",
+      "french": "Aimez-vous voyager ?",
+      "italian": "Ti piace viaggiare?",
+      "portuguese": "Você gosta de viajar?"
+    },
+    {
+      "orderIndex": 29,
+      "english": "I like travelling.",
+      "spanish": "Me gusta viajar.",
+      "french": "J'aime voyager.",
+      "italian": "Mi piace viaggiare.",
+      "portuguese": "Eu gosto de viajar."
+    },
+    {
+      "orderIndex": 30,
+      "english": "Do you travel a lot?",
+      "spanish": "¿Viajas mucho?",
+      "french": "Vous voyagez beaucoup ?",
+      "italian": "Viaggi molto?",
+      "portuguese": "Você viaja muito?"
+    },
+    {
+      "orderIndex": 31,
+      "english": "I travel a lot.",
+      "spanish": "Viajo mucho",
+      "french": "Je voyage beaucoup.",
+      "italian": "Viaggio molto.",
+      "portuguese": "Eu viajo muito."
+    },
+    {
+      "orderIndex": 32,
+      "english": "Are you here on holiday?",
+      "spanish": "¿Estás aquí de vacaciones?",
+      "french": "Vous êtes ici en vacances ?",
+      "italian": "Sei qui in vacanza?",
+      "portuguese": "Você está aqui de férias?"
+    },
+    {
+      "orderIndex": 33,
+      "english": "No, I'm here on a business trip. And you?",
+      "spanish": "No, estoy aquí en viaje de negocios. ¿Y tú?",
+      "french": "Non, je suis ici en voyage d'affaires. Et vous ?",
+      "italian": "No, sono qui per un viaggio d'affari. E tu?",
+      "portuguese": "Não, estou aqui em viagem de negócios. E você?"
+    },
+    {
+      "orderIndex": 34,
+      "english": "I live here. I am from here.",
+      "spanish": "Yo vivo aquí. Soy de aquí.",
+      "french": "J'habite ici. Je suis d'ici.",
+      "italian": "Io vivo qui. Sono di qui.",
+      "portuguese": "Eu moro aqui. Eu sou daqui."
+    },
+    {
+      "orderIndex": 35,
+      "english": "Do you travel a lot?",
+      "spanish": "¿Viajas mucho?",
+      "french": "Vous voyagez beaucoup ?",
+      "italian": "Viaggi molto?",
+      "portuguese": "Você viaja muito?"
+    },
+    {
+      "orderIndex": 36,
+      "english": "Yes, I travel a lot.",
+      "spanish": "Sí, viajo mucho.",
+      "french": "Oui, je voyage beaucoup.",
+      "italian": "Sì, viaggio molto.",
+      "portuguese": "Sim, eu viajo muito."
+    },
+    {
+      "orderIndex": 37,
+      "english": "Tell me more about yourself.",
+      "spanish": "Cuéntame más sobre ti.",
+      "french": "Parlez-moi davantage de vous.",
+      "italian": "Raccontami qualcosa di più su di te.",
+      "portuguese": "Conte-me mais sobre você."
+    },
+    {
+      "orderIndex": 38,
+      "english": "So, what are you doing here?",
+      "spanish": "Entonces, ¿qué estás haciendo aquí?",
+      "french": "Alors, que faites-vous ici ?",
+      "italian": "Allora, cosa ci fai qui?",
+      "portuguese": "Então, o que você está fazendo aqui?"
+    },
+    {
+      "orderIndex": 39,
+      "english": "Really? That's interesting!",
+      "spanish": "¿En serio? ¡Qué interesante!",
+      "french": "Vraiment ? C'est intéressant !",
+      "italian": "Davvero? Interessante!",
+      "portuguese": "Sério? Que interessante!"
+    },
+    {
+      "orderIndex": 40,
+      "english": "How long are you staying here?",
+      "spanish": "¿Cuánto tiempo te quedarás aquí?",
+      "french": "Combien de temps restez-vous ici ?",
+      "italian": "Quanto tempo rimarrai qui?",
+      "portuguese": "Por quanto tempo você ficará aqui?"
+    },
+    {
+      "orderIndex": 41,
+      "english": "I'll stay here three more days.",
+      "spanish": "Me quedaré aquí tres días más.",
+      "french": "Je resterai ici trois jours de plus.",
+      "italian": "Resterò qui altri tre giorni.",
+      "portuguese": "Vou ficar aqui mais três dias."
+    },
+    {
+      "orderIndex": 42,
+      "english": "I am leaving on Monday.",
+      "spanish": "Me voy el lunes.",
+      "french": "Je pars lundi.",
+      "italian": "Parto lunedì.",
+      "portuguese": "Vou embora na segunda-feira."
+    },
+    {
+      "orderIndex": 43,
+      "english": "Where are you staying?",
+      "spanish": "¿Dónde te estás quedadando?",
+      "french": "Où séjournes-tu?",
+      "italian": "Dove alloggi?",
+      "portuguese": "Onde você vai ficar?"
+    },
+    {
+      "orderIndex": 44,
+      "english": "I am staying in a hotel, 5 minutes from here.",
+      "spanish": "Me estoy alojando en un hotel, a 5 minutos de aquí.",
+      "french": "Je loge dans un hôtel, à 5 minutes d'ici.",
+      "italian": "Sto soggiornando in un hotel a 5 minuti da qui.",
+      "portuguese": "Estou hospedado em um hotel a 5 minutos daqui."
+    },
+    {
+      "orderIndex": 45,
+      "english": "My apartment is not far away from here.",
+      "spanish": "Mi apartamento no está lejos de aquí.",
+      "french": "Mon appartement n'est pas loin d'ici.",
+      "italian": "Il mio appartamento non è lontano da qui.",
+      "portuguese": "Meu apartamento não fica longe daqui."
+    },
+    {
+      "orderIndex": 46,
+      "english": "Is this table free?",
+      "spanish": "¿Esta mesa está libre?",
+      "french": "Cette table est-elle libre ?",
+      "italian": "Questo tavolo è libero?",
+      "portuguese": "Esta mesa está livre?"
+    },
+    {
+      "orderIndex": 47,
+      "english": "Do you have a table for two people?",
+      "spanish": "¿Tienes una mesa para dos personas?",
+      "french": "Avez-vous une table pour deux personnes ?",
+      "italian": "Avete un tavolo per due persone?",
+      "portuguese": "Você tem uma mesa para duas pessoas?"
+    },
+    {
+      "orderIndex": 48,
+      "english": "Can I see the menu?",
+      "spanish": "¿Puedo ver el menú?",
+      "french": "Puis-je voir le menu ?",
+      "italian": "Posso vedere il menu?",
+      "portuguese": "Posso ver o menu?"
+    },
+    {
+      "orderIndex": 49,
+      "english": "I would like to order, please.",
+      "spanish": "Me gustaría hacer un pedido por favor.",
+      "french": "Je voudrais commander, s'il vous plaît.",
+      "italian": "Vorrei ordinare, per favore.",
+      "portuguese": "Gostaria de fazer um pedido, por favor."
+    },
+    {
+      "orderIndex": 50,
+      "english": "Do you want something to drink?",
+      "spanish": "¿Quieres algo de beber?",
+      "french": "Voulez-vous quelque chose à boire ?",
+      "italian": "Vuoi qualcosa da bere?",
+      "portuguese": "Você quer beber alguma coisa?"
+    },
+    {
+      "orderIndex": 51,
+      "english": "Can I have a glass of water, please?",
+      "spanish": "¿Me puede dar un vaso de agua por favor?",
+      "french": "Puis-je avoir un verre d'eau, s'il vous plaît ?",
+      "italian": "Posso avere un bicchiere d'acqua, per favore?",
+      "portuguese": "Poderia me trazer um copo d'água, por favor?"
+    },
+    {
+      "orderIndex": 52,
+      "english": "No, thanks. I don’t drink.",
+      "spanish": "No, gracias. No bebo.",
+      "french": "Non, merci. Je ne bois pas.",
+      "italian": "No, grazie. Non bevo.",
+      "portuguese": "Não, obrigado. Eu não bebo."
+    },
+    {
+      "orderIndex": 53,
+      "english": "Can I pay by card?",
+      "spanish": "¿Puedo pagar con tarjeta?",
+      "french": "Puis-je payer par carte ?",
+      "italian": "Posso pagare con carta?",
+      "portuguese": "Posso pagar com cartão?"
+    },
+    {
+      "orderIndex": 54,
+      "english": "Where's the toilet?",
+      "spanish": "¿Dónde está el baño?",
+      "french": "Où sont les toilettes ?",
+      "italian": "Dov'è il bagno?",
+      "portuguese": "Onde fica o banheiro?"
+    },
+    {
+      "orderIndex": 55,
+      "english": "Have you tried the food here?",
+      "spanish": "¿Has probado la comida de aquí?",
+      "french": "Avez-vous déjà goûté la nourriture ici ?",
+      "italian": "Hai provato il cibo qui?",
+      "portuguese": "Você já experimentou a comida daqui?"
+    },
+    {
+      "orderIndex": 56,
+      "english": "What do you think about it?",
+      "spanish": "¿Qué opinas al respecto?",
+      "french": "Qu'en pensez-vous ?",
+      "italian": "Cosa ne pensi?",
+      "portuguese": "O que você acha disso?"
+    },
+    {
+      "orderIndex": 57,
+      "english": "It's interesting.",
+      "spanish": "Es interesante.",
+      "french": "C'est intéressant.",
+      "italian": "È interessante.",
+      "portuguese": "É interessante."
+    },
+    {
+      "orderIndex": 58,
+      "english": "Do you have plans for the weekend?",
+      "spanish": "¿Tienes planes para el fin de semana?",
+      "french": "Avez-vous des projets pour le week-end ?",
+      "italian": "Hai programmi per il fine settimana?",
+      "portuguese": "Você tem planos para o fim de semana?"
+    },
+    {
+      "orderIndex": 59,
+      "english": "It's been nice talking to you.",
+      "spanish": "Fue agradable hablar contigo.",
+      "french": "Ce fut un plaisir de vous parler.",
+      "italian": "È stato un piacere parlare con te.",
+      "portuguese": "Foi um prazer conversar com você."
+    },
+    {
+      "orderIndex": 60,
+      "english": "Are you here tomorrow?",
+      "spanish": "¿Estarás aquí mañana?",
+      "french": "Êtes-vous là demain ?",
+      "italian": "Ci sarai domani?",
+      "portuguese": "Você estará aqui amanhã?"
+    },
+    {
+      "orderIndex": 61,
+      "english": "What's your phone number?",
+      "spanish": "¿Cual es tu numero de teléfono?",
+      "french": "Quel est votre numéro de téléphone ?",
+      "italian": "Qual è il tuo numero di telefono?",
+      "portuguese": "Qual é o seu número de telefone?"
+    },
+    {
+      "orderIndex": 62,
+      "english": "Let's meet tomorrow.",
+      "spanish": "Nos vemos mañana.",
+      "french": "Rencontrons-nous demain.",
+      "italian": "Ci vediamo domani.",
+      "portuguese": "Vamos nos encontrar amanhã."
+    },
+    {
+      "orderIndex": 63,
+      "english": "See you later! Bye!",
+      "spanish": "¡Hasta luego! ¡Adiós!",
+      "french": "À plus tard ! Salut !",
+      "italian": "Ci vediamo dopo! Ciao!",
+      "portuguese": "Até logo! Tchau!"
+    },
+    {
+      "orderIndex": 64,
+      "english": "Do you need help?",
+      "spanish": "¿Necesitas ayuda?",
+      "french": "Avez-vous besoin d'aide ?",
+      "italian": "Hai bisogno di aiuto?",
+      "portuguese": "Você precisa de ajuda?"
+    },
+    {
+      "orderIndex": 65,
+      "english": "Can you help me?",
+      "spanish": "¿Me puedes ayudar?",
+      "french": "Pouvez-vous m'aider?",
+      "italian": "Mi potete aiutare?",
+      "portuguese": "Pode me ajudar?"
+    },
+    {
+      "orderIndex": 66,
+      "english": "Do you speak Russian?",
+      "spanish": "¿Hablas ruso?",
+      "french": "Parlez-vous russe ?",
+      "italian": "Parli russo?",
+      "portuguese": "Você fala russo?"
+    },
+    {
+      "orderIndex": 67,
+      "english": "I can speak a little Arabic.",
+      "spanish": "Puedo hablar un poco de árabe.",
+      "french": "Je parle un peu arabe.",
+      "italian": "So parlare un po' di arabo.",
+      "portuguese": "Eu consigo falar um pouco de árabe."
+    },
+    {
+      "orderIndex": 68,
+      "english": "I am learning Spanish now.",
+      "spanish": "Estoy aprendiendo español ahora.",
+      "french": "J'apprends l'espagnol en ce moment.",
+      "italian": "Adesso sto imparando lo spagnolo.",
+      "portuguese": "Estou aprendendo espanhol agora."
+    },
+    {
+      "orderIndex": 69,
+      "english": "Are you British?",
+      "spanish": "¿Eres británico?",
+      "french": "Êtes-vous britannique ?",
+      "italian": "Sei britannico?",
+      "portuguese": "Você é britânico?"
+    },
+    {
+      "orderIndex": 70,
+      "english": "No, I'm not German. And you?",
+      "spanish": "No, no soy alemán. ¿Y tú?",
+      "french": "Non, je ne suis pas allemand. Et vous ?",
+      "italian": "No, non sono tedesco. E tu?",
+      "portuguese": "Não, eu não sou alemão. E você?"
+    },
+    {
+      "orderIndex": 71,
+      "english": "Yes, I am American.",
+      "spanish": "Sí, soy estadounidense.",
+      "french": "Oui, je suis américain.",
+      "italian": "Sì, sono americano.",
+      "portuguese": "Sim, eu sou americano."
+    },
+    {
+      "orderIndex": 72,
+      "english": "Why are you learning French?",
+      "spanish": "¿Por qué estás aprendiendo francés?",
+      "french": "Pourquoi apprenez-vous le français ?",
+      "italian": "Perché stai imparando il francese?",
+      "portuguese": "Por que você está aprendendo francês?"
+    },
+    {
+      "orderIndex": 73,
+      "english": "I am learning Portuguese because I want to move to Brazil.",
+      "spanish": "Estoy aprendiendo portugués porque quiero mudarme a Brasil.",
+      "french": "J'apprends le portugais parce que je veux déménager au Brésil.",
+      "italian": "Sto imparando il portoghese perché voglio trasferirmi in Brasile.",
+      "portuguese": "Estou aprendendo português porque quero me mudar para o Brasil."
+    },
+    {
+      "orderIndex": 74,
+      "english": "I want to learn Italian because I have Italian friends.",
+      "spanish": "Quiero aprender italiano porque tengo amigos italianos.",
+      "french": "Je veux apprendre l'italien parce que j'ai des amis italiens.",
+      "italian": "Voglio imparare l'italiano perché ho amici italiani.",
+      "portuguese": "Quero aprender italiano porque tenho amigos italianos."
+    },
+    {
+      "orderIndex": 75,
+      "english": "I learned Russian because I had a Ukrainian girlfriend.",
+      "spanish": "Aprendí ruso porque tenía una novia ucraniana.",
+      "french": "J'ai appris le russe parce que j'avais une petite amie ukrainienne.",
+      "italian": "Ho imparato il russo perché avevo una ragazza ucraina.",
+      "portuguese": "Aprendi russo porque tinha uma namorada ucraniana."
+    },
+    {
+      "orderIndex": 76,
+      "english": "It is an interesting language.",
+      "spanish": "Es un lenguaje interesante.",
+      "french": "C'est une langue intéressante.",
+      "italian": "È una lingua interessante.",
+      "portuguese": "É uma língua interessante."
+    },
+    {
+      "orderIndex": 77,
+      "english": "What are you doing here?",
+      "spanish": "¿Qué estás haciendo aquí?",
+      "french": "Que faites-vous ici?",
+      "italian": "Cosa ci fai qui?",
+      "portuguese": "O que você está fazendo aqui?"
+    },
+    {
+      "orderIndex": 78,
+      "english": "I am waiting for a friend.",
+      "spanish": "Estoy esperando a un amigo.",
+      "french": "J'attends un ami.",
+      "italian": "Sto aspettando un amico.",
+      "portuguese": "Estou esperando um amigo."
+    },
+    {
+      "orderIndex": 79,
+      "english": "Do you have a cigarette?",
+      "spanish": "¿Tienes un cigarrillo?",
+      "french": "Avez-vous une cigarette?",
+      "italian": "Hai una sigaretta?",
+      "portuguese": "Você tem um cigarro?"
+    },
+    {
+      "orderIndex": 80,
+      "english": "Sorry, mate. I don't smoke.",
+      "spanish": "Lo siento amigo. No fumo.",
+      "french": "Désolé, mon pote. Je ne fume pas.",
+      "italian": "Mi dispiace, amico. Non fumo.",
+      "portuguese": "Desculpe, amigo. Eu não fumo."
+    },
+    {
+      "orderIndex": 81,
+      "english": "Do you smoke? Do you want a cigarette?",
+      "spanish": "¿Fumas? ¿Quieres un cigarrillo?",
+      "french": "Tu fumes ? Tu as envie d'une cigarette ?",
+      "italian": "Fumi? Vuoi una sigaretta?",
+      "portuguese": "Você fuma? Quer um cigarro?"
+    },
+    {
+      "orderIndex": 82,
+      "english": "No, thank you.",
+      "spanish": "No, gracias.",
+      "french": "Non, merci.",
+      "italian": "No, grazie.",
+      "portuguese": "Não, obrigado."
+    },
+    {
+      "orderIndex": 83,
+      "english": "Do you want something to drink?",
+      "spanish": "¿Quieres algo de beber?",
+      "french": "Voulez-vous quelque chose à boire ?",
+      "italian": "Vuoi qualcosa da bere?",
+      "portuguese": "Você quer beber alguma coisa?"
+    },
+    {
+      "orderIndex": 84,
+      "english": "Do you want a beer?",
+      "spanish": "¿Quieres una cerveza?",
+      "french": "Tu veux une bière ?",
+      "italian": "Vuoi una birra?",
+      "portuguese": "Você quer uma cerveja?"
+    },
+    {
+      "orderIndex": 85,
+      "english": "I want a beer, thank you.",
+      "spanish": "Quiero una cerveza, gracias.",
+      "french": "Je veux une bière, merci.",
+      "italian": "Voglio una birra, grazie.",
+      "portuguese": "Quero uma cerveja, obrigado."
+    },
+    {
+      "orderIndex": 86,
+      "english": "And another one for my friend.",
+      "spanish": "Y otro más para mi amiga.",
+      "french": "Et une autre pour mon ami.",
+      "italian": "E un altro per il mio amico.",
+      "portuguese": "E mais uma para o meu amigo."
+    },
+    {
+      "orderIndex": 87,
+      "english": "Two beers please!",
+      "spanish": "¡Dos cervezas por favor!",
+      "french": "Deux bières, s'il vous plaît !",
+      "italian": "Due birre, per favore!",
+      "portuguese": "Duas cervejas, por favor!"
+    },
+    {
+      "orderIndex": 88,
+      "english": "How much is it?",
+      "spanish": "¿Cuánto cuesta?",
+      "french": "Combien ça coûte?",
+      "italian": "Quanto costa?",
+      "portuguese": "Quanto isso custa?"
+    },
+    {
+      "orderIndex": 89,
+      "english": "Do you want tequila?",
+      "spanish": "¿Quieres tequila?",
+      "french": "Tu veux de la tequila ?",
+      "italian": "Vuoi della tequila?",
+      "portuguese": "Você quer tequila?"
+    },
+    {
+      "orderIndex": 90,
+      "english": "no thanks, I don't drink tequila.",
+      "spanish": "No gracias, no bebo tequila.",
+      "french": "Non merci, je ne bois pas de tequila.",
+      "italian": "no grazie, non bevo tequila.",
+      "portuguese": "Não, obrigado, eu não bebo tequila."
+    },
+    {
+      "orderIndex": 91,
+      "english": "What do you do for a living?",
+      "spanish": "¿A qué te dedicas?",
+      "french": "Que fais-tu dans la vie?",
+      "italian": "Cosa fa per vivere?",
+      "portuguese": "Você trabalha com o que?"
+    },
+    {
+      "orderIndex": 92,
+      "english": "I have my own business.",
+      "spanish": "Tengo mi propio negocio.",
+      "french": "J'ai ma propre entreprise.",
+      "italian": "Ho la mia attività.",
+      "portuguese": "Eu tenho meu próprio negócio."
+    },
+    {
+      "orderIndex": 93,
+      "english": "Do you help people learn languages?",
+      "spanish": "¿Ayudas a la gente a aprender idiomas?",
+      "french": "Aidez-vous les gens à apprendre les langues ?",
+      "italian": "Aiuti le persone ad imparare le lingue?",
+      "portuguese": "Você ajuda pessoas a aprender idiomas?"
+    },
+    {
+      "orderIndex": 94,
+      "english": "Exactly, I help people learn faster, without wasting time.",
+      "spanish": "Exactamente, ayudo a la gente a aprender más rápido, sin perder el tiempo.",
+      "french": "Exactement, j'aide les gens à apprendre plus vite, sans perdre de temps.",
+      "italian": "Esatto, aiuto le persone ad imparare più velocemente, senza perdere tempo.",
+      "portuguese": "Exatamente, eu ajudo as pessoas a aprenderem mais rápido, sem perder tempo."
+    },
+    {
+      "orderIndex": 95,
+      "english": "Do you work a lot?",
+      "spanish": "¿Trabajas mucho?",
+      "french": "Vous travaillez beaucoup ?",
+      "italian": "Lavori molto?",
+      "portuguese": "Você trabalha muito?"
+    },
+    {
+      "orderIndex": 96,
+      "english": "I work a lot.",
+      "spanish": "Yo trabajo mucho",
+      "french": "Je travaille beaucoup.",
+      "italian": "Lavoro molto.",
+      "portuguese": "Eu trabalho muito."
+    },
+    {
+      "orderIndex": 97,
+      "english": "I like my work.",
+      "spanish": "Me gusta mi trabajo.",
+      "french": "J'aime mon travail.",
+      "italian": "Mi piace il mio lavoro.",
+      "portuguese": "Eu gosto do meu trabalho."
+    },
+    {
+      "orderIndex": 98,
+      "english": "I don't mind working a lot.",
+      "spanish": "No me importa trabajar mucho.",
+      "french": "Travailler beaucoup ne me dérange pas.",
+      "italian": "Non mi dispiace lavorare molto.",
+      "portuguese": "Não me importo de trabalhar muito."
+    },
+    {
+      "orderIndex": 99,
+      "english": "How long have you been doing this job?",
+      "spanish": "¿Cuanto tiempo llevas haciendo este trabajo?",
+      "french": "Depuis combien de temps occupez-vous ce poste ?",
+      "italian": "Da quanto tempo svolgi questo lavoro?",
+      "portuguese": "Há quanto tempo você exerce essa função?"
+    },
+    {
+      "orderIndex": 100,
+      "english": "What did you do before?",
+      "spanish": "¿Qué hacías antes?",
+      "french": "Que faisiez-vous avant ?",
+      "italian": "Cosa facevi prima?",
+      "portuguese": "O que você fazia antes?"
+    },
+    {
+      "orderIndex": 101,
+      "english": "What other jobs have you had?",
+      "spanish": "¿Qué otros trabajos has tenido?",
+      "french": "Quels autres emplois avez-vous occupés ?",
+      "italian": "Quali altri lavori hai svolto?",
+      "portuguese": "Que outros empregos você já teve?"
+    },
+    {
+      "orderIndex": 102,
+      "english": "I used to work in the Embassy of Spain in Berlin.",
+      "spanish": "Trabajé en la Embajada de España en Berlín.",
+      "french": "J'ai travaillé à l'ambassade d'Espagne à Berlin.",
+      "italian": "Lavoravo presso l'Ambasciata di Spagna a Berlino.",
+      "portuguese": "Eu trabalhava na Embaixada da Espanha em Berlim."
+    },
+    {
+      "orderIndex": 103,
+      "english": "Have you ever been to Romania?",
+      "spanish": "¿Has estado alguna vez en Rumania?",
+      "french": "Avez-vous déjà été en Roumanie ?",
+      "italian": "Sei mai stato in Romania?",
+      "portuguese": "Você já esteve na Romênia?"
+    },
+    {
+      "orderIndex": 104,
+      "english": "I have been to France many times.",
+      "spanish": "He estado en Francia muchas veces.",
+      "french": "Je suis allée en France à de nombreuses reprises.",
+      "italian": "Sono stato in Francia molte volte.",
+      "portuguese": "Já estive na França muitas vezes."
+    },
+    {
+      "orderIndex": 105,
+      "english": "I have never been to China.",
+      "spanish": "Nunca he estado en China.",
+      "french": "Je ne suis jamais allé en Chine.",
+      "italian": "Non sono mai stato in Cina.",
+      "portuguese": "Eu nunca estive na China."
+    },
+    {
+      "orderIndex": 106,
+      "english": "I go to Portugal often.",
+      "spanish": "Voy a Portugal a menudo.",
+      "french": "Je vais souvent au Portugal.",
+      "italian": "Vado spesso in Portogallo.",
+      "portuguese": "Vou a Portugal com frequência."
+    },
+    {
+      "orderIndex": 107,
+      "english": "I have been to Korea once.",
+      "spanish": "He estado en Corea una vez.",
+      "french": "Je suis allé en Corée une fois.",
+      "italian": "Sono stato in Corea una volta.",
+      "portuguese": "Já estive na Coreia uma vez."
+    },
+    {
+      "orderIndex": 108,
+      "english": "Did you go to university?",
+      "spanish": "¿Fuiste a la universidad?",
+      "french": "Avez-vous fait des études universitaires ?",
+      "italian": "Sei andato all'università?",
+      "portuguese": "Você foi para a universidade?"
+    },
+    {
+      "orderIndex": 109,
+      "english": "What did you study?",
+      "spanish": "¿Qué estudiaste?",
+      "french": "Qu'as-tu étudié ?",
+      "italian": "Cosa hai studiato?",
+      "portuguese": "O que você estudou?"
+    },
+    {
+      "orderIndex": 110,
+      "english": "I went to three different universities.",
+      "spanish": "Fui a tres universidades diferentes.",
+      "french": "J'ai fréquenté trois universités différentes.",
+      "italian": "Ho frequentato tre università diverse.",
+      "portuguese": "Frequentei três universidades diferentes."
+    },
+    {
+      "orderIndex": 111,
+      "english": "I have masters degrees in translation and international business.",
+      "spanish": "Tengo maestrías en traducción y negocios internacionales.",
+      "french": "Je suis titulaire d'une maîtrise en traduction et en commerce international.",
+      "italian": "Ho conseguito un master in traduzione e commercio internazionale.",
+      "portuguese": "Possuo mestrados em tradução e em negócios internacionais."
+    },
+    {
+      "orderIndex": 112,
+      "english": "But I wasn’t a very good student.",
+      "spanish": "Pero yo no era un muy buen estudiante.",
+      "french": "Mais je n'étais pas un très bon élève.",
+      "italian": "Ma non ero uno studente molto bravo.",
+      "portuguese": "Mas eu não era um aluno muito bom."
+    },
+    {
+      "orderIndex": 113,
+      "english": "I used to work as a translator.",
+      "spanish": "Solía ​​trabajar como traductora.",
+      "french": "Avant, je travaillais comme traductrice.",
+      "italian": "Lavoravo come traduttore.",
+      "portuguese": "Eu trabalhava como tradutora."
+    },
+    {
+      "orderIndex": 114,
+      "english": "Translation is quite boring, you have to write a lot.",
+      "spanish": "La traducción es bastante aburrida, hay que escribir mucho.",
+      "french": "La traduction est assez ennuyeuse, il faut beaucoup écrire.",
+      "italian": "La traduzione è piuttosto noiosa, bisogna scrivere molto.",
+      "portuguese": "Traduzir é bastante entediante, você tem que escrever muito."
+    },
+    {
+      "orderIndex": 115,
+      "english": "What do you do in your free time?",
+      "spanish": "¿Qué haces en tu tiempo libre?",
+      "french": "Que faites-vous pendant votre temps libre ?",
+      "italian": "Cosa fai nel tuo tempo libero?",
+      "portuguese": "O que você faz no seu tempo livre?"
+    },
+    {
+      "orderIndex": 116,
+      "english": "In my free time I read, I work out, I train in martial arts and I meet my friends.",
+      "spanish": "En mi tiempo libre leo, hago ejercicio, entreno artes marciales y quedo con mis amigos.",
+      "french": "Durant mon temps libre, je lis, je fais du sport, je pratique les arts martiaux et je vois mes amis.",
+      "italian": "Nel mio tempo libero leggo, mi alleno, mi alleno nelle arti marziali e incontro i miei amici.",
+      "portuguese": "No meu tempo livre, leio, faço exercícios, treino artes marciais e encontro meus amigos."
+    },
+    {
+      "orderIndex": 117,
+      "english": "I like reading.",
+      "spanish": "Me gusta leer.",
+      "french": "J'aime lire.",
+      "italian": "Mi piace leggere.",
+      "portuguese": "Eu gosto de ler."
+    },
+    {
+      "orderIndex": 118,
+      "english": "I read a lot, mostly about history.",
+      "spanish": "Leo mucho, sobre todo sobre historia.",
+      "french": "Je lis beaucoup, surtout des ouvrages d'histoire.",
+      "italian": "Leggo molto, soprattutto di storia.",
+      "portuguese": "Eu leio muito, principalmente sobre história."
+    },
+    {
+      "orderIndex": 119,
+      "english": "And of course, I like to learn languages.",
+      "spanish": "Y por supuesto, me gusta aprender idiomas.",
+      "french": "Et bien sûr, j'aime apprendre les langues.",
+      "italian": "E naturalmente mi piace imparare le lingue.",
+      "portuguese": "E, claro, eu gosto de aprender idiomas."
+    },
+    {
+      "orderIndex": 120,
+      "english": "I don’t have much free time, I work a lot.",
+      "spanish": "No tengo mucho tiempo libre, trabajo mucho.",
+      "french": "Je n'ai pas beaucoup de temps libre, je travaille beaucoup.",
+      "italian": "Non ho molto tempo libero, lavoro molto.",
+      "portuguese": "Não tenho muito tempo livre, trabalho muito."
+    },
+    {
+      "orderIndex": 121,
+      "english": "Do you go to bars and restaurants?",
+      "spanish": "¿Vas a bares y restaurantes?",
+      "french": "Fréquentez-vous les bars et les restaurants ?",
+      "italian": "Frequenti bar e ristoranti?",
+      "portuguese": "Você frequenta bares e restaurantes?"
+    },
+    {
+      "orderIndex": 122,
+      "english": "Yes, of course.",
+      "spanish": "Sí, claro.",
+      "french": "Oui bien sûr.",
+      "italian": "Sì, naturalmente.",
+      "portuguese": "Sim claro."
+    },
+    {
+      "orderIndex": 123,
+      "english": "Everyone does that here!",
+      "spanish": "¡Todo el mundo hace eso aquí!",
+      "french": "Tout le monde fait ça ici !",
+      "italian": "Qui lo fanno tutti!",
+      "portuguese": "Todo mundo faz isso por aqui!"
+    },
+    {
+      "orderIndex": 124,
+      "english": "Do you go to the gym a lot?",
+      "spanish": "¿Vas mucho al gimnasio?",
+      "french": "Est-ce que tu vas souvent à la salle de sport ?",
+      "italian": "Vai spesso in palestra?",
+      "portuguese": "Você costuma ir muito à academia?"
+    },
+    {
+      "orderIndex": 125,
+      "english": "I train almost every day.",
+      "spanish": "Entreno casi todos los días.",
+      "french": "Je m'entraîne presque tous les jours.",
+      "italian": "Mi alleno quasi tutti i giorni.",
+      "portuguese": "Eu treino quase todos os dias."
+    },
+    {
+      "orderIndex": 126,
+      "english": "I lift weights and I do martial arts.",
+      "spanish": "Levanto pesas y practico artes marciales.",
+      "french": "Je fais de la musculation et je pratique les arts martiaux.",
+      "italian": "Faccio sollevamento pesi e pratico arti marziali.",
+      "portuguese": "Eu levanto pesos e pratico artes marciais."
+    },
+    {
+      "orderIndex": 127,
+      "english": "I live next to the beach.",
+      "spanish": "Vivo al lado de la playa.",
+      "french": "J'habite près de la plage.",
+      "italian": "Io vivo vicino alla spiaggia.",
+      "portuguese": "Eu moro perto da praia."
+    },
+    {
+      "orderIndex": 128,
+      "english": "When the weather is good I run on the beach.",
+      "spanish": "Cuando hace buen tiempo corro en la playa.",
+      "french": "Quand il fait beau, je cours sur la plage.",
+      "italian": "Quando il tempo è bello corro sulla spiaggia.",
+      "portuguese": "Quando o tempo está bom, eu corro na praia."
+    },
+    {
+      "orderIndex": 129,
+      "english": "I have to do a lot of sports because I work in an office.",
+      "spanish": "Tengo que hacer muchos deportes porque trabajo en una oficina.",
+      "french": "Je dois faire beaucoup de sport car je travaille dans un bureau.",
+      "italian": "Devo fare molto sport perché lavoro in ufficio.",
+      "portuguese": "Tenho que praticar muitos esportes porque trabalho em um escritório."
+    },
+    {
+      "orderIndex": 130,
+      "english": "When I work, I am always sitting in front of a computer.",
+      "spanish": "Cuando trabajo, siempre estoy sentado frente a una computadora.",
+      "french": "Quand je travaille, je suis toujours assis devant un ordinateur.",
+      "italian": "Quando lavoro, sono sempre seduto davanti al computer.",
+      "portuguese": "Quando estou trabalhando, estou sempre sentado em frente a um computador."
+    },
+    {
+      "orderIndex": 131,
+      "english": "That is not healthy for your body and your mind.",
+      "spanish": "Eso no es saludable para tu cuerpo ni para tu mente.",
+      "french": "Ce n'est pas bon pour votre corps et votre esprit.",
+      "italian": "Questo non è salutare né per il corpo né per la mente.",
+      "portuguese": "Isso não é saudável para o seu corpo e para a sua mente."
+    },
+    {
+      "orderIndex": 132,
+      "english": "What kind of sports do you do?",
+      "spanish": "¿Qué tipo de deportes practicas?",
+      "french": "Quels sports pratiques-tu ?",
+      "italian": "Che tipo di sport pratichi?",
+      "portuguese": "Que tipo de esportes você pratica?"
+    },
+    {
+      "orderIndex": 133,
+      "english": "I play football, I go to the gym and I go for runs.",
+      "spanish": "Juego al fútbol, ​​voy al gimnasio y salgo a correr.",
+      "french": "Je joue au football, je vais à la salle de sport et je fais du jogging.",
+      "italian": "Gioco a calcio, vado in palestra e vado a correre.",
+      "portuguese": "Eu jogo futebol, vou à academia e corro."
+    },
+    {
+      "orderIndex": 134,
+      "english": "Which food do you recommend me to try?",
+      "spanish": "¿Qué comida me recomiendas probar?",
+      "french": "Quels plats me conseillez-vous d'essayer ?",
+      "italian": "Quale cibo mi consigli di provare?",
+      "portuguese": "Que comida você me recomenda experimentar?"
+    },
+    {
+      "orderIndex": 135,
+      "english": "There are a lot of different types of food that you should try.",
+      "spanish": "Hay muchos tipos diferentes de alimentos que deberías probar.",
+      "french": "Il y a beaucoup de types d'aliments différents que vous devriez essayer.",
+      "italian": "Ci sono molti tipi diversi di cibo che dovresti provare.",
+      "portuguese": "Existem muitos tipos diferentes de comida que você deveria experimentar."
+    },
+    {
+      "orderIndex": 136,
+      "english": "The city is famous for its cuisine, both traditional and modern.",
+      "spanish": "La ciudad es famosa por su cocina, tanto tradicional como moderna.",
+      "french": "La ville est réputée pour sa cuisine, à la fois traditionnelle et moderne.",
+      "italian": "La città è famosa per la sua cucina, sia tradizionale che moderna.",
+      "portuguese": "A cidade é famosa por sua culinária, tanto tradicional quanto moderna."
+    },
+    {
+      "orderIndex": 137,
+      "english": "Do you like Mexican food?",
+      "spanish": "¿Te gusta la comida mexicana?",
+      "french": "Aimez-vous la cuisine mexicaine ?",
+      "italian": "Ti piace il cibo messicano?",
+      "portuguese": "Você gosta de comida mexicana?"
+    },
+    {
+      "orderIndex": 138,
+      "english": "I like Mexican food a lot, it's delicious.",
+      "spanish": "Me gusta mucho la comida mexicana, es deliciosa.",
+      "french": "J'aime beaucoup la cuisine mexicaine, elle est délicieuse.",
+      "italian": "Mi piace molto il cibo messicano, è delizioso.",
+      "portuguese": "Eu gosto muito de comida mexicana, é deliciosa."
+    },
+    {
+      "orderIndex": 139,
+      "english": "Italian food is also really good.",
+      "spanish": "La comida italiana también es muy buena.",
+      "french": "La cuisine italienne est également excellente.",
+      "italian": "Anche il cibo italiano è davvero buono.",
+      "portuguese": "A comida italiana também é muito boa."
+    },
+    {
+      "orderIndex": 140,
+      "english": "I eat pizza very often, maybe too much.",
+      "spanish": "Como pizza muy a menudo, quizá demasiado.",
+      "french": "Je mange très souvent de la pizza, peut-être même trop.",
+      "italian": "Mangio la pizza molto spesso, forse anche troppo.",
+      "portuguese": "Eu como pizza com muita frequência, talvez até demais."
+    },
+    {
+      "orderIndex": 141,
+      "english": "That's why I have to work out a lot!",
+      "spanish": "¡Por eso tengo que entrenar mucho!",
+      "french": "C'est pour ça que je dois faire beaucoup de sport !",
+      "italian": "Ecco perché devo allenarmi molto!",
+      "portuguese": "É por isso que preciso me exercitar bastante!"
+    },
+    {
+      "orderIndex": 142,
+      "english": "Do you like Kebab?",
+      "spanish": "¿Te gusta el Kebab?",
+      "french": "Aimez-vous les kebabs ?",
+      "italian": "Ti piace il kebab?",
+      "portuguese": "Você gosta de kebab?"
+    },
+    {
+      "orderIndex": 143,
+      "english": "I like Kebab, but in Spain it is not very good.",
+      "spanish": "Me gusta el Kebab, pero en España no es muy bueno.",
+      "french": "J'aime les kebabs, mais en Espagne, ils ne sont pas très bons.",
+      "italian": "Mi piace il kebab, ma in Spagna non è molto buono.",
+      "portuguese": "Eu gosto de kebab, mas na Espanha não é muito bom."
+    },
+    {
+      "orderIndex": 144,
+      "english": "In Germany there are very good Kebab places, because a lot of Turks live there.",
+      "spanish": "En Alemania hay muy buenos lugares para comer kebab porque allí viven muchos turcos.",
+      "french": "En Allemagne, on trouve d'excellents restaurants de kebab, car il y a beaucoup de Turcs qui y vivent.",
+      "italian": "In Germania ci sono ottimi locali che servono kebab, perché lì vivono molti turchi.",
+      "portuguese": "Na Alemanha existem ótimos lugares para comer kebab, porque muitos turcos vivem lá."
+    },
+    {
+      "orderIndex": 145,
+      "english": "I used to live in Germany.",
+      "spanish": "Yo solía vivir en Alemania.",
+      "french": "J'habitais en Allemagne.",
+      "italian": "Vivevo in Germania.",
+      "portuguese": "Eu morava na Alemanha."
+    },
+    {
+      "orderIndex": 146,
+      "english": "I like Germany, but I prefer my hometown.",
+      "spanish": "Me gusta Alemania, pero prefiero mi ciudad natal.",
+      "french": "J'aime l'Allemagne, mais je préfère ma ville natale.",
+      "italian": "Mi piace la Germania, ma preferisco la mia città natale.",
+      "portuguese": "Gosto da Alemanha, mas prefiro minha cidade natal."
+    },
+    {
+      "orderIndex": 147,
+      "english": "What is your country like?",
+      "spanish": "¿Cómo es tu país?",
+      "french": "À quoi ressemble votre pays ?",
+      "italian": "Com'è il tuo Paese?",
+      "portuguese": "Como é o seu país?"
+    },
+    {
+      "orderIndex": 148,
+      "english": "Is the food good there?",
+      "spanish": "¿Es buena la comida allí?",
+      "french": "La nourriture y est-elle bonne ?",
+      "italian": "Il cibo lì è buono?",
+      "portuguese": "A comida lá é boa?"
+    },
+    {
+      "orderIndex": 149,
+      "english": "What do you think?",
+      "spanish": "¿Qué opinas?",
+      "french": "Qu'en penses-tu?",
+      "italian": "Cosa ne pensi?",
+      "portuguese": "O que você acha?"
+    },
+    {
+      "orderIndex": 150,
+      "english": "Do you still think language learning is difficult?",
+      "spanish": "¿Aún piensas que aprender idiomas es difícil?",
+      "french": "Pensez-vous toujours que l'apprentissage des langues est difficile ?",
+      "italian": "Pensi ancora che imparare una lingua sia difficile?",
+      "portuguese": "Você ainda acha que aprender um idioma é difícil?"
+    },
+    {
+      "orderIndex": 151,
+      "english": "If you learn one thousand good sentences, you can speak the language well.",
+      "spanish": "Si aprendes mil frases buenas, podrás hablar bien el idioma.",
+      "french": "Si vous apprenez mille bonnes phrases, vous parlerez bien la langue.",
+      "italian": "Se impari mille buone frasi, puoi parlare bene la lingua.",
+      "portuguese": "Se você aprender mil boas frases, conseguirá falar bem o idioma."
+    },
+    {
+      "orderIndex": 152,
+      "english": "You can do that in three months or less.",
+      "spanish": "Puedes hacerlo en tres meses o menos.",
+      "french": "Vous pouvez le faire en trois mois ou moins.",
+      "italian": "Puoi farlo in tre mesi o meno.",
+      "portuguese": "Você pode fazer isso em três meses ou menos."
+    },
+    {
+      "orderIndex": 153,
+      "english": "With an effective system and some discipline, you can learn any language fast.",
+      "spanish": "Con un sistema efectivo y algo de disciplina, puedes aprender cualquier idioma rápidamente.",
+      "french": "Avec une méthode efficace et un peu de discipline, vous pouvez apprendre n'importe quelle langue rapidement.",
+      "italian": "Con un sistema efficace e un po' di disciplina, puoi imparare velocemente qualsiasi lingua.",
+      "portuguese": "Com um sistema eficaz e um pouco de disciplina, você pode aprender qualquer idioma rapidamente."
+    }
+  ]
+}
